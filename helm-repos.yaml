@@ -1,0 +1,17 @@
+apiVersion: source.toolkit.fluxcd.io/v1beta1
+kind: HelmRepository
+metadata:
+  name: alizandieh
+  namespace: flux-system
+spec:
+  interval: 10m
+  url: https://alizandieh.github.io/helm-chart/
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta1
+kind: HelmRepository
+metadata:
+  name: bitnami
+  namespace: flux-system
+spec:
+  interval: 10m
+  url: https://charts.bitnami.com/bitnami/
