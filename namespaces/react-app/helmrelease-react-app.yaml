@@ -17,6 +17,8 @@ spec:
 
   values:
 
+    fullnameOverride: "react-app"
+    
     image:
       repository: alizandieh2019/react_app
       tag: 1
